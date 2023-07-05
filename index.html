@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV_Raissov_Ayan</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <header class="header" id="home">
+        <div class="container">
+            <!-- Header nav -->
+            <div class="header-nav">
+                <a href="./index.html" class="logo">Ayan Raissov</a>
+
+                <nav id="nav" class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#!" class="nav-link" data-scroll="#home">Главная</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link" data-scroll="#services">О себе</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link" data-scroll="#certificate">Сертификаты</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link" data-scroll="#portfolio">Портфолио</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link" data-scroll="#contacts">Контакты</a></li>
+                    </ul>
+                    <button id="nav-btn" class="nav-button">
+                        <img id="nav-btn-img" src="./img/icons/nav-open.svg" alt="Nav button">
+                    </button>
+                </nav>
+            </div>
+
+            <!-- Header content -->
+            <div class="header-row">
+
+                <div class="header-content" data-aos="fade-up">
+                    <h1 class="header-heading">Аян Раисов<br> <span>Техподдержа & Django-разработчик</span></h1>
+                    <p>
+                        Работаю в сфере IT с 2008 года. г. Астана 
+                        <br> - Специалист технической поддержки: Service Desk
+                        <br> - Системный администратор: MS server, AD, 1C server
+                        <br> - Сетевой инженер: Курсы CCNA
+                        <br> - Web разработчик: HTML, CSS, JavaScript, Python, Django
+                    </p>
+                        <!-- <br>Прошел курсы CCNA по настройке оборудование Cisco, есть сертификат CCNA. 
+                        <br>В 2021 году курсы по веб разработке (HTML, CSS, JavaScript). 
+                        <br>Окончил курс по программе "Tech Orda" в Международной IT-школе "MyFreedom Education" Python + Django разработчик..</p> -->
+                        <div class="contacts-button cv-btn" data-aos="fade-up">
+                            <a href="./img/CV_Raissov_Ayan.pdf" download="CV_Raissov_Ayan.pdf" class="btn">Скачать резюме</a>
+                        </div>
+                </div>
+
+                <div class="header-img" data-aos="fade-left">
+
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="./img/header/hero-mobile.png">
+                        <img src="./img/header/hero_11.png" alt="">
+                    </picture>
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="services intro" id="services">
+        <div class="container">
+            <div class="services-row">
+                
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="./img/services/03.svg" alt="UI/UX Design">
+                    <h3 class="service-card-title">тех поддержка</h3>
+                    <p>Работаю в сфере IT с 2008 года. В основном тех поддержка компьютерной техники, банкоматов и POS терминалов банковской сфере. Прошел курсы CCNA по настройке оборудование Cisco, есть сертификат CCNA.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="./img/services/02.svg" alt="UI/UX Design">
+                    <h3 class="service-card-title">Python / Django</h3>
+                    <p>Окончил курс по программе "Tech Orda" в Международной IT-школе "MyFreedom Education"  Python + Django разработчик.</p>
+                </div> 
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="./img/services/01.svg" alt="UI/UX Design">
+                    <h3 class="service-card-title">фронтенд разработка</h3>
+                    <p>В 2021 году прошел курсы по веб разработке (HTML, CSS, JavaScript).</p>
+                </div>
+
+                            
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="certificate">
+        <div class="container">
+            <div class="portfolio-title">
+                <h2 class="title-1">Сертификаты</h2>
+            </div>
+
+            <div class="project" data-aos="flip-up">
+                <img src="./img/portfolio/01.jpg" alt="Online fashion store" class="project-img">
+                <h3 class="project-title"><a href="https://kai.kz/" target="_blank">Казахская Академия Инфокоммуникаций</a></h3>
+            </div>
+
+            <div class="project" data-aos="flip-up">
+                <img src="./img/portfolio/02.jpg" alt="Reebok Store" class="project-img">
+                <h3 class="project-title"><a href="https://myfreedom.education/" target="_blank">Международная IT-школа MyFreedom</a></h3>
+            </div>            
+
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="portfolio-title">
+                <h2 class="title-1">Портфолио</h2>
+            </div>
+
+            <div class="project" data-aos="flip-down">
+                <a href="http://raissovayan.pythonanywhere.com/" target="_blank">
+                    <img src="./img/portfolio/03.jpg" alt="Reebok Store" class="project-img">
+                    <h3 class="project-title"><a href="http://raissovayan.pythonanywhere.com/" target="_blank">Web приложение на Django</a></h3>
+                </a>
+            </div>
+
+            <div class="project" data-aos="flip-down">
+                <a href="./Lesson_IT/lesson_IT.html" target="_blank">
+                    <img src="./img/portfolio/04.jpg" alt="Braun Landing Page" class="project-img">
+                    <h3 class="project-title"><a href="./Lesson_IT/lesson_IT.html" target="_blank">Учебный web сайт</a></h3>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts-title">
+                <h2 class="title-1">Контакты</h2>
+            </div>
+            <div class="contacts-content" data-aos="fade-down">
+                <p>8 702 320 47 37<br> 8 707 320 47 37</p>
+            </div>
+            <div class="contacts-button" data-aos="fade-down">
+                <a href="./img/CV_Raissov_Ayan.pdf" download="CV_Raissov_Ayan.pdf" class="btn">Скачать резюме</a>
+            </div>
+            <div class="contacts-social" data-aos="zoom-in">
+                <a href="#!"><img src="./img/socials/LinkedIn.svg" alt="LinkedIn"></a>
+                <a href="#!"><img src="./img/socials/Instargam.svg" alt="Instargam"></a>
+                <a href="#!"><img src="./img/socials/Behance.svg" alt="Behance"></a>
+                <a href="#!"><img src="./img/socials/Dribble.svg" alt="Dribble"></a>
+            </div>
+            <div class="contacts-footer" data-aos="fade-up">
+                <p>иконки социальных сетей для красоты<br> они не работают &#128512;</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
