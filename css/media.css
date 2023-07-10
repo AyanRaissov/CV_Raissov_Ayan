@@ -105,11 +105,16 @@
 	}
 
 	.contacts-button {
-		margin-bottom: 70px;
+		margin-bottom: 50px;
 	}
 
 	.contacts-social {
 		column-gap: 50px;
+		margin-bottom: 20px;
+	}
+
+	.contacts-footer {	
+		color: #828282;
 		margin-bottom: 20px;
 	}
 }
